@@ -1,0 +1,246 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: #c6c6c6;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  transform: translateX(5px);
+  color: #fff;
+}
+
+.dropdown-toggle:hover {
+  transform: translateX(5px);
+  color: #fff;
+}
+
+.active-color {
+  background-color: #c6c6c6;
+}
+
+.navbar {
+transition: all 0.5s;
+  background: linear-gradient(to right,#168dad, #0b0b5a);
+}
+
+.navbar-scrolled {
+  box-shadow: 0 8px 6px -6px #000000;
+}
+
+
+.herotopic {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  padding: 20px;
+  text-align: center;
+  animation: slideIn 1s ease forwards;
+}
+
+.herotopic h1 {
+  font-size: 100px;
+  font-weight: 800;
+}
+
+
+.herosection {
+  background-image: url(../images/pexels-malinda-bandara-16508230.jpg) ;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 80vh;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .startsec {
+    max-width: 600px;
+    height: auto;
+  }
+}
+
+@media (max-width: 574px) {
+  .startsec {
+    max-width: 565px;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .startsec {
+    max-width: 355px;
+    height: auto;
+  }
+}
+
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+  .herotopic h1{
+    font-size: 80px;
+    font-weight: 800;
+  }
+}
+
+@media (max-width: 574px) {
+  .herotopic h1{
+    font-size: 60px;
+    font-weight: 700;
+  }
+}
+
+.d-block.w-100{
+   
+    max-height: auto;
+ }
+
+ .clearfix{
+    text-align: justify;
+    font-size: 18px;
+}
+.para{
+    width: 750px;
+    max-height: auto;
+    padding: 4%;
+}
+
+
+
+/* .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .card {
+    width: 18rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color:  #c2fac9;
+    transition: background-color 0.3s ease;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  } */
+
+  .btn {
+    background-size: 200%;
+    transition: 0.6s;
+    border: none;
+    border-radius: 3em;
+  }
+  
+  .button-section {
+    align-items: center;
+    margin: 15px;
+  }
+  
+  .btn1:hover {
+    background-image: linear-gradient(to left, #0b0b5a, #168dad, #0b0b5a);
+    background-position: right;
+  }
+
+
+  /* ----footer section----- */
+
+.footer {
+  background : linear-gradient(to Right, #168dad, #0b0b5a);
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom:0;
+}
+
+.footer-topics {
+  color: #ffffff;
+  transition: 0.4s;
+
+}
+.footer-topics:hover {
+  transform: translateX(5px);
+  color: #fff; 
+}
+
+.footer-listed-items {
+  color: #c0c0c0;
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: smaller;
+}
+
+.footer-listed-items:hover {
+  transform: translateX(5px);
+  color: #fff; 
+}
+
+
+.input-footer{
+  font-size: smaller;
+  width: 300px;
+  background-color: #616161;
+  border-color: #ffffff;
+  border-radius: 1em;
+  border-style: solid;
+  color: #fff;
+}
+
+.contact-footer {
+  font-size: x-small;
+  cursor: pointer;
+}
+
+.copyright-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  font-size: 10px;
+  opacity: 50%;
+}
+
+
+/* Responsive */
+
+@media (max-width:767px){
+  .footer-col {
+     width: 25%;
+     margin-bottom: 30px;
+  }
+}
+
+@media (max-width:574px){
+  .footer-col {
+     width: 100%;
+     
+  }
+} 

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beaches & Activities</title>
+    <link rel="icon" href="images/walkers-footer.png" />
+    <!--jQuery-->
+    <script
+    src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"
+  ></script>
+
+  <!--Bootstrap-->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+  <link rel="stylesheet" href="css/style-beach.css"/>
+</head>
+<body>
+  <!--NavBar--------------------------------------------Start-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top navbar-scrolled">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"
+        ><img src="images/walkers1.png " style="width: 40px; height: auto" alt=""
+      /></a>
+      <h5 style="font-weight: 800"></h5>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-2">
+          <li class="nav-item">
+            <a
+              class="nav-link btn btn-outline-dark"
+              aria-current="page"
+              href="#"
+              >Home</a>
+          </li>
+          <li class="nav-item">
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Catogaries
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Wild-Life & Safari</a></li>
+                    <li><a class="dropdown-item" href="#">Rainforests & Waterfalls</a></li>
+                    <li><a class="dropdown-item active-color" href="#">Beaches & Activities</a></li>
+                    <li><a class="dropdown-item" href="#">Heritage & Religious</a></li>
+                    <li><a class="dropdown-item" href="#">Hiking, Camping & Adventure</a></li>
+                    <li><a class="dropdown-item" href="#">Accomedations</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-outline-dark" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-outline-dark" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-outline-dark" href="#">Join Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--NavBar--------------------------------------------------------End-->
+
+<!--Hero Sec------------------------------------------------------Start-->
+
+<div class="herosection">
+  <div class="herotopic">
+  <h1>Beaches & Activities Sri Lanka</h1>
+</div>
+</div>
+
+<!--Hero Sec------------------------------------------------------End-->
+
+
+         <div class="container-fluid mt-5">
+          <div class="container">
+            <h2 class="text-capitalize text-left" style="padding-top: 5%;"><strong>Welcome To The Beach World of Sri Lanka!</strong></h2>
+            <div class="clearfix" style="padding-top: 2%;">
+              <img src="./images/pexels-esrageziyor-11495843.jpg" class="startsec col-md-5 float-md-end mb-4 ms-md-4 mt-5" alt="...">
+               <div class="para" >
+              <p>
+                At our website,
+                 we invite you to embark on an unforgettable journey that will awaken your spirit of exploration and leave you with memories 
+                 to cherish for a lifetime.
+              </p>
+            
+              <p>
+                Sri Lanka, a mesmerizing island nation in South Asia, boasts an enchanting coastal paradise known as the "Sri Lankan Beach World." With an extensive shoreline that spans approximately 1,340 kilometers, this tropical haven offers an array of stunning beaches that cater to diverse interests and preferences. From the vibrant and bustling shores of Bentota and Mirissa to the tranquil and secluded stretches of Tangalle and Pasikudah, there is something to suit every beach lover's taste.
+              </p>
+            
+              <p>
+                The Sri Lankan Beach World is renowned for its crystal-clear azure waters, pristine sandy shores, and lush palm-fringed landscapes. The beaches here provide a perfect blend of relaxation and adventure, making it an ideal destination for sun-seekers, water sports enthusiasts, and nature lovers alike. Whether you want to indulge in thrilling water activities like surfing, snorkeling, and diving or simply unwind under the shade of swaying coconut trees, these beaches have it all.
+              </p>
+              <p>
+                Aside from the picturesque beauty of the coastline, the Sri Lankan Beach World is enriched with a vibrant culture and warm hospitality. Visitors can savor delectable seafood delicacies, immerse themselves in the local traditions and festivities, and find solace in the friendly smiles of the locals. Additionally, some beaches are home to unique wildlife, such as sea turtles nesting along the sandy shores, adding a touch of eco-tourism to the overall experience.
+              </p>
+              <!-- <p>
+                In summary, the Sri Lankan Beach World is a captivating destination that beckons travelers from around the globe to indulge in its natural splendor, cultural richness, and a wide range of recreational activities. Whether you seek a serene escape or an adventurous getaway, these beaches promise an unforgettable and rejuvenating experience that will leave you with cherished memories to last a lifetime.
+              </p> -->
+              <p>
+                The beautiful island country of Sri Lanka is no short of natural beauty. For those of you who don’t know, Sri Lanka is a cluster of islands. What’s the first thing which comes to your mind when we say island? Beaches, of course. That is exactly what Sri Lanka is famous for. People from all around the world come to explore the best beaches in Sri Lanka. The scenic views of these gorgeous sandy shores are sure to make you want to revisit these beautiful beaches in and around Sri Lanka. Besides, beaches are the perfect place to relax with the sound of gushing waves giving you an upheaval feeling. There is a sense of true joy and peace while relaxing on a beach. Needless to say, the Sri Lankan beaches are your perfect place to rejuvenate and recharge completely. If you are a beach baby and solely visiting Sri Lanka to explore its coastline, then you should add these beaches in Sri Lanka to your list.
+              </p>
+              <p><b><font size="5"> Are you ready to explore?</font></b></p>
+            </div>
+            </div>
+            
+            <!--ending of card-->
+           
+
+            <!--beginnig of card-->
+
+
+            <div class="card mb-3" onmouseover="changeCardColor(this)" onmouseout="resetCardColor(this)">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/unawatuna.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Unawatuna Beach </h5>
+                    <p class="card-text">Unawatuna is a town in southern Sri Lanka. It’s known for its coral reef and its palm-lined beaches, like Unawatuna Beach. Nestled in nearby jungle, the Japanese Peace Pagoda has a stupa with ocean views. The Sea Turtle Farm and Hatchery south of town protects endangered species. North across the bay is the city of Galle’s fortified old town, founded by the Portuguese and expanded by the Dutch in the 17th century.</p>
+                    <button type="button" class="btn btn-dark btn-rounded ms-2 btn1" ><a href="https://en.wikipedia.org/wiki/Unawatuna" target="_blank">See more</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" onmouseover="changeCardColor(this)" onmouseout="resetCardColor(this)">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/m111.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Mirissa Beach</h5>
+                    <p class="card-text">A vision of tropical bliss, Mirissa Beach boasts powdery pale sand, while its azure water is framed by an arc of coconut palms. The west side is the nicest and has the broadest expanse of sand; as the bay curves gently around to the east it meets up with the roar of the Galle-Matara Rd.</p>
+                    <button type="button" class="btn btn-dark btn-rounded ms-2 btn1" ><a href="https://en.wikipedia.org/wiki/Mirissa" target="_blank">See more</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          
+            <div class="card mb-3" onmouseover="changeCardColor(this)" onmouseout="resetCardColor(this)">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/marble-beach-1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Marble Beach - Trincomalee</h5>
+                    <p class="card-text">Marble beach is one of the most amazing beach on the Sri Lankan east coast. This white sand beach is said to be one of the cleanest beaches, which is also a great place for solo travel. With an array of activities, the beach also offers a line of open restaurants.</p>
+                    <button type="button" class="btn btn-dark btn-rounded ms-2 btn1" ><a href="https://en.wikipedia.org/wiki/Trincomalee" target="_blank">See more</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" onmouseover="changeCardColor(this)" onmouseout="resetCardColor(this)">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/hikkaduwa-beach-sri-lanka-1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Hikkaduwa Beach</h5>
+                    <p class="card-text">Hikkaduwa is a coastal town in Galle district of Sri Lanka. Hikkaduwa is a major tourist attraction in Sri Lanka and is known for its beaches and corals. It is located in the Southern Province, about 17 km (11 mi) north-west of Galle and 98 km (61 mi) south of Colombo.</p>
+                    <button type="button" class="btn btn-dark btn-rounded ms-2 btn1" ><a href="https://en.wikipedia.org/wiki/Hikkaduwa" target="_blank">See more</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card mb-3" onmouseover="changeCardColor(this)" onmouseout="resetCardColor(this)">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/Nilaveli_Beach_21.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Nilaveli Beach</h5>
+                    <p class="card-text">Nilaveli's 4km stretch of sand is considered one of Sri Lanka's best beaches and with its paradise-island remoteness, swaying palms and golden tinge to the shore, it's easy to see why. As such, it's a surprise that it is so little frequented.</p>
+                    <button type="button" class="btn btn-dark btn-rounded ms-2 btn1" ><a href="https://en.wikipedia.org/wiki/Nilaveli" target="_blank">See more</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" onmouseover="changeCardColor(this)" onmouseout="resetCardColor(this)">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/Tangalle-Beach.jpeg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Tangalle Beach</h5>
+                    <p class="card-text">Tangalle is a regionally important fishing port, situated on one of the largest bays in Sri Lanka, which is protected from the ocean by an enclosing reef. It is a centre of tourism and a popular holiday destination on the south coast. In the town centre there is an old Dutch fort which is used as a prison today.</p>
+                    <button type="button" class="btn btn-dark btn-rounded ms-2 btn1" ><a href="https://en.wikipedia.org/wiki/Tangalle" target="_blank">See more</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+            </div>
+            
+            
+
+
+        <!--Footer----------------------------------------------------------Start-->
+    <footer class="footer">
+      <div class="container" style="text-align: center;">
+        <div class="row">
+          <div class="footer-col col-md-4 mt-3 ">
+            <ul style="list-style-type:none;">
+              <div class="footer-img">
+                <img src="images/walkers-footer.png" alt="" style="max-width: 200px;">
+              </div>
+            </ul>
+          </div>
+          <div class="footer-col col-md-2 mt-3 ">
+            <ul style="list-style-type:none;">
+              <h5 class="footer-topics">Menu</h5>
+              <li class="footer-listed-items"><a href="www.google.com">Home</a></li>
+              <li class="footer-listed-items"><a href="www.google.com">FAQ</a></li>
+              <li class="footer-listed-items"><a href="www.google.com">About Us</a></li>
+              <li class="footer-listed-items"><a href="www.google.com">Join Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col col-md-2 mt-3">
+            <ul style="list-style-type:none;">
+              <h5 class="footer-topics">Catogaries</h5>
+              <li class="footer-listed-items"><a href="www.google.com" target="_blank">Heritage</a></li>
+              <li class="footer-listed-items"><a href="www.google.com" target="_blank">Beaches</a></li>
+              <li class="footer-listed-items"><a href="www.google.com" target="_blank">Wild-Life</a></li>
+              <li class="footer-listed-items"><a href="www.google.com" target="_blank">Rainforests</a></li>
+              <li class="footer-listed-items"><a href="www.google.com" target="_blank">Adventure</a></li>
+              <li class="footer-listed-items"><a href="www.google.com" target="_blank">Accomedations</a></li>
+            </ul>
+          </div>
+          <div class="footer-col col-md-4 mt-3">
+            <h4>Thank You</h4>
+            <p class="contact-footer"></p>
+            <button type="button" class="btn btn-dark btn-rounded ms-2 btn1"><a href="">Back To Home</a></button>
+
+          </div>
+        </div>
+      </div>
+      <div style="height: 50px; max-width: 100%; background-color: #0b0b5a ;" class="copyright-div">
+        <p class="copyright">Copyright © 2023 Walkers Sri Lanka. All rights reserved</p>
+      </div>
+    </footer>
+    <!--Footer----------------------------------------------------------End-->
+
+
+       <script src="js/script-beach.js"></script>         
+</body>
+</html>
