@@ -1,0 +1,462 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* -----navbar------ */
+
+.navbar {
+transition: all 0.5s;
+  background: linear-gradient(to Right, #605C3C, #3C3B3F);
+}
+
+.active-color {
+  background-color: #c6c6c6;
+}
+
+
+.navbar-scrolled {
+  box-shadow: 0 8px 6px -6px #000000;
+}
+
+
+.btn-rounded {
+  border-radius: 3em;
+}
+
+.navjoin {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0.5px;
+  border-radius: 3em;
+}
+
+/* HERO SECTION */
+
+.herotopic {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  padding: 20px;
+  text-align: center;
+  animation: slideIn 1s ease forwards;
+}
+
+.herotopic h1 {
+  font-size: 100px;
+  font-weight: 800;
+}
+
+
+.herosection {
+  background-image: url(https://scenicventures.com/wp-content/uploads/2019/03/Wild-Life.jpg) ;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 80vh;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .herotopic h1{
+    font-size: 80px;
+    font-weight: 800;
+  }
+}
+
+@media (max-width: 574px) {
+  .herotopic h1{
+    font-size: 60px;
+    font-weight: 700;
+  }
+}
+
+/* HERO SECTION */
+
+#hero-section {
+  background-image: url("https://lh3.googleusercontent.com/0Yb2qarSN3JP86Tu-QXv_OxaIXPheNBogtl3DYISSGRDXymdPr42NQfg9pyReAR4Io9i9KJu7gwqyD1DdvJpM9fYJKoXJhHBewX2HPxzCIQcxg=s1080");
+  background-size: cover;
+  background-position: relative;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  z-index: 1;
+  width: 100%;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-content {
+  text-align: center;
+  color: rgb(237, 243, 243);
+  position: relative;
+  opacity: 0;
+  transform: translateY(-30vh);
+  animation: slideIn 1s ease forwards;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  background-size: 200%;
+  transition: 0.6s;
+  border: none;
+  border-radius: 3em;
+}
+
+.button-section {
+  align-items: center;
+  margin: 15px;
+}
+
+.btn1:hover {
+  background-image:linear-gradient(to left,#3C3B3F, #605C3C, #3C3B3F);
+  background-position: right;
+}
+
+.btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+button {
+  padding: 12px 10px;
+  background-color: #9892b8;
+  color: #f4f5f7;
+  border: #0c0c0c;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-position 0.3s ease-in-out, border 0.3s ease;
+  background-size: 100% 200%;
+  background-position: 0 100%;
+}
+
+button:hover {
+  background-position: 0 0;
+  background-color: #1c2802;
+  color: #d6e1bf;
+  border: 1px solid #1c2802;
+}
+
+/* SECTION DIVIDER */
+
+/* -------about-sec------- */
+.about {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 30px;
+  max-height: fit-content;
+}
+
+.img-sec {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.about-img {
+  background: url(https://avankafernandophotography.com/wp-content/uploads/2023/01/Color-contrast-copy-1.jpg);
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  background-color: #03240b;
+}
+
+
+@media (max-width: 982px) {
+  .about-img {
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 375px) {
+  .about-img {
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+  }
+}
+
+/* CARD SECTION */
+
+#card-section {
+  padding: 20px;
+  z-index: 1;
+  max-width: 100%;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border: 2.5px solid #03240b;
+  border-radius: 5px;
+  margin: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.card-section-heading {
+  font-size: 36px;
+  color: #070707;
+  text-align: center;
+}
+
+.card img {
+  width: 230px;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card a {
+  text-decoration: none;
+  padding: 12px 10px;
+  background-color: #3b2d63;
+  color: #f3f5ee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-position 0.3s ease-in-out, border 0.3s ease;
+  background-size: 100% 200%;
+  background-position: 0 100%;
+}
+
+.card a:hover {
+  background-position: 0 0;
+  background-color: #0f1601;
+  color: #d6e1bf;
+  border: 1px solid #1c2802;
+}
+
+.card h3 {
+  color: black;
+}
+
+/* RESPONSIVE STYLES */
+
+@media (max-width: 575px) {
+  .about-section-card {
+    flex-direction: column;
+  }
+
+  .about-section-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-section-card-content {
+    padding: 10px;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-content {
+    padding: 10px;
+  }
+
+  .about-section-heading {
+    font-size: 24px;
+  }
+
+  .card-section-heading {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .about-section-card {
+    flex-direction: column;
+  }
+
+  .about-section-card img {
+    width: 100%;
+  }
+
+  .about-section-card-content {
+    padding: 10px;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .card-content {
+    padding: 10px;
+  }
+
+  .about-section-heading {
+    font-size: 28px;
+  }
+
+  .card-section-heading {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-section-heading {
+    font-size: 32px;
+  }
+
+  .card-section-heading {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-section-heading {
+    font-size: 36px;
+  }
+
+  .card-section-heading {
+    font-size: 36px;
+  }
+}
+
+
+/* ----footer section----- */
+
+.footer {
+  background : linear-gradient(to Right, #605C3C, #3C3B3F);
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom:0;
+}
+
+.footer-topics {
+  color: #ffffff;
+  transition: 0.4s;
+
+}
+.footer-topics:hover {
+  transform: translateX(5px);
+  color: #fff; 
+}
+
+.footer-listed-items {
+  color: #c0c0c0;
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: smaller;
+}
+
+.footer-listed-items:hover {
+  transform: translateX(5px);
+  color: #fff; 
+}
+
+a{
+  color: #c6c6c6;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  transform: translateX(5px);
+  color: #fff;
+}
+
+.dropdown-toggle:hover {
+  transform: translateX(5px);
+  color: #fff;
+}
+
+.input-footer{
+  font-size: smaller;
+  width: 300px;
+  background-color: #616161;
+  border-color: #ffffff;
+  border-radius: 1em;
+  border-style: solid;
+  color: #fff;
+}
+
+.contact-footer {
+  font-size: x-small;
+  cursor: pointer;
+}
+
+.copyright-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  font-size: 10px;
+  opacity: 50%;
+}
+
+
+/* Responsive */
+
+@media (max-width:767px){
+  .footer-col {
+     width: 25%;
+     margin-bottom: 30px;
+  }
+}
+
+@media (max-width:574px){
+  .footer-col {
+     width: 100%;
+     
+  }
+} 
+
