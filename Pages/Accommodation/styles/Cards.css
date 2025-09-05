@@ -1,0 +1,426 @@
+
+    html{
+        height:100%;
+        }
+        
+        body{
+        position:relative;
+        min-height:100%
+        }
+
+/* ---------------------------- Navigation bar -----------------------------------*/
+.nav-item{
+  color: #c6c6c6;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  transform: translateX(5px);
+  color: #fff;
+}
+
+.active-color {
+  background-color: #c6c6c6;
+}
+      
+.navbar {
+transition: all 0.5s;
+  background: linear-gradient(to right,#168dad, #000C66, #050A30);
+}
+
+.navbar-scrolled {
+  box-shadow: 0 8px 6px -6px #000000;
+}
+        
+.navbar-toggler {
+  animation: spin 0.3s ease-in-out;
+}
+        
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  transform: rotate(90deg);
+}
+        
+@keyframes spin {
+  0% {
+  transform: rotate(0);
+    }
+  100% {
+  transform: rotate(180deg);
+       }
+       }
+   
+
+
+ /* ---------------------------- background-image -----------------------------------*/
+        
+            .background-image {
+        
+              background-size: cover;
+              background-position: center;
+              height: 400px;
+              position: relative;
+            }
+ 
+ /* ---------------------------- background-text -----------------------------------*/     
+
+            .text-overlay {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              text-align: center;
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+              color: white;
+              letter-spacing: 2px;
+              font-weight: bold;
+              font-size: 60px;
+              font-family: "Chela One", cursive;
+              width: 100%;
+            }
+            
+            @media (max-width: 575px) {
+              .text-overlay {
+                font-size: 40px;
+              }
+            }
+            
+ /* ---------------------------- Search-bar -----------------------------------*/
+        
+        
+        .search-bar {
+          position: absolute;
+          top: 70%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          display: flex;
+          align-items: center;
+          padding-right:2px;
+        }
+        
+        .search-bar input[type="text"] {
+          border: none;
+          outline: none;
+          background-color: rgba(255, 255, 255, 0.7);
+          padding: 8px;
+          border-radius: 20px 0 0 20px;
+          margin: 20px auto;
+          width: 400px;
+          padding-left: 20px;
+          
+        }
+        
+        
+        .search-bar button {
+          border: none;
+          outline: none;
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 8px 50px;
+          border-radius: 0 20px 20px 0;
+        
+          cursor: pointer;
+        }
+        
+        
+            .search-bar button:hover {
+              background-color: rgba(255, 255, 255, 0.9)
+            }
+        
+        @media (max-width: 575px) {
+          .search-bar {
+            top: 70%; /* Adjust the vertical position on smaller screens */
+            width:360px;
+            padding-right:6px;
+            }
+            .search-bar button {
+          border: none;
+          outline: none;
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 8px 34px;
+          border-radius: 0 20px 20px 0;
+        
+          cursor: pointer;
+        }
+          }
+          
+ /* ---------------------------- Card -----------------------------------*/       
+                    
+                  .card {
+              width: 100%;
+              max-width: 400px;
+              border-radius: 15px;
+              box-shadow: 0 0 14px rgba(0, 0, 0, 0.8);
+              overflow: hidden; /* To ensure the image corners are rounded */
+              position: relative;
+              margin-top:20px;
+              
+            }
+        
+            .card-img-top {
+              height: 240px;
+              object-fit: cover;
+              border-top-left-radius: 15px;
+              border-top-right-radius: 15px;
+            }
+        
+            .card-body {
+              padding: 20px;
+              color: #555;
+            }
+        
+            .card-title {
+              font-size: 1.5rem;
+              font-weight: bold;
+              margin-bottom: 15px;
+              color: #416788;
+            }
+        
+ /* ---------------------------- Additional styles for the message on top of the image ----------------------------*/
+
+            .card-message {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              background-color: rgba(0, 0, 0, 0.7);
+              color: #fff;
+              font-size: 12px;
+              padding: 5px;
+              border-top-left-radius: 15px;
+              border-top-right-radius: 15px;
+              text-align: center;
+              opacity: 0;
+              transition: opacity 0.3s;
+            }
+        
+            .card:hover .card-message {
+              opacity: 1;
+            }
+        
+            .social-details p {
+              margin-bottom: 10px;
+              margin-left: 18px;
+              font-size: 1.2rem;
+              color: #555;
+            }
+        
+            .btn-book {
+              width: 100%;
+              border-radius: 15px;
+              font-size: 1.2rem;
+              padding: 12px 0;
+              margin-top: 1px;
+            }
+        
+            .social-icons {
+              margin-top: 0px;
+              padding-top: 10px;
+            }
+        
+            .icon-link {
+              display: inline-block;
+              margin: 20px;
+              padding-bottom: -20px;
+              margin-left: 30px;
+            }
+        
+            .icon-link img {
+              width: 34px;
+              height: 34px;
+              border-radius: 50%;
+              transition: transform 0.3s;
+            }
+        
+            .icon-link img:hover {
+              transform: scale(1.2);
+            }
+        
+            .card:hover {
+              transform: scale(1.04);
+              box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+            }
+        
+            .hidden {
+              display: none;
+            }
+        
+/* ---------------------- Set the cursor to 'pointer' for the entire card-container -----------------------------*/       
+
+            .card-container {
+              cursor: pointer;
+            }
+
+/* --------------------- Set the cursor to 'auto' for the social-icons and btn-book elements --------------------*/       
+
+            .social-icons, .btn-book {
+              cursor: pointer;
+            }
+        
+            .description {
+              margin-top: -10px;
+              margin-bottom:16px;
+              font-size: 0.9rem;
+              line-height: 0.8;
+            }
+
+/* --------------------- Adjust the styling to your preference --------------------*/ 
+           
+            .cards-container {
+              display: flex;
+              justify-content: space-around;
+              flex-wrap: wrap;
+              gap: 28px;
+              margin-bottom:40px;
+              margin-top:40px;
+              
+            }
+        
+ /* --------------------- footer --------------------*/ 
+        
+ .btn2 {
+  background-size: 200%;
+  background-color:#000C66;
+  transition: 0.6s;
+  border: none;
+  border-radius: 3em;
+}
+
+ .btn2n {
+  background-size: 200%;
+  transition: 0.6s;
+  border: none;
+  border-radius: 3em;
+}
+
+.button2-section {
+  align-items: center;
+  margin: 15px;
+}
+
+.btn1:hover {
+  background-image: linear-gradient( to Right, #0b0b5a, #168dad, #0b0b5a);
+  background-position: right;
+}
+
+.btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+  .herotopic h1{
+    font-size: 80px;
+    font-weight: 800;
+  }
+}
+
+@media (max-width: 574px) {
+  .herotopic h1{
+    font-size: 60px;
+    font-weight: 700;
+  }
+}
+
+/* ----footer section----- */
+
+.footer {
+  background : linear-gradient(to Right, #168dad, #000C66, #050A30);
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom:0;
+}
+
+.footer-topics {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+.footer-listed-items {
+  color: #c0c0c0;
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: smaller;
+}
+
+.footer-listed-items:hover {
+  transform: translateX(5px);
+  color: #fff; 
+}
+
+.footer-listed-items a{
+  color: #c6c6c6;
+  text-decoration: none;
+}
+
+.footer-listed-items a:hover {
+  transform: translateX(5px);
+  color: #fff;
+}
+
+.input-footer{
+  font-size: smaller;
+  width: 300px;
+  background-color: #616161;
+  border-color: #ffffff;
+  border-radius: 1em;
+  border-style: solid;
+  color: #fff;
+}
+
+.contact-footer {
+  font-size: x-small;
+  cursor: pointer;
+}
+
+.copyright-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  font-size: 10px;
+  opacity: 50%;
+}
+
+
+
+/* Responsive */
+
+@media (max-width:767px){
+  .footer-col {
+     width: 25%;
+     margin-bottom: 30px;
+  }
+}
+
+@media (max-width:574px){
+  .footer-col {
+     width: 100%;
+     
+  }
+} 
+           
+
+ /* --------------------- not-found-message --------------------*/ 
+        
+        .not-found-message {
+          display: none;
+          text-align: center;
+          position: absolute;
+          top: 70%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+        }
+        
+ /* --------------------- no-link-icon --------------------*/ 
+        
+        .no-link-icon {
+          display: inline-block;
+          cursor: pointer;
+          /* Add any additional styling here, such as size, margin, etc. */
+        }
+        

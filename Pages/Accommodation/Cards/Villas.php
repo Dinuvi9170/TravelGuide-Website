@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Villas - Walkers</title>
+  <link rel="icon" href="../Images/Logos/walkers-footer.png" />
+    <!-------------------------------------------- Styles ----------------------------------------------------->
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/Cards.css">
+  
+  </head>
+  <body>
+  
+      <!---------------------------------------- Navigation bar ------------------------------------------------->
+  
+      <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.php"
+            ><img src="../Images/Logos/walkers.png " style="width: 40px; height: auto" alt=""
+          /></a>
+          <h5 style="font-weight: 800"></h5>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-2">
+              <li class="nav-item">
+                <a
+                  class="nav-link btn2n btn btn-outline-dark"
+                  aria-current="page"
+                  href="index.php"
+                  >Home</a>
+              </li>
+              <li class="nav-item">
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Catogaries
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="Wild-Life & Safari.php">Wild-Life & Safari</a></li>
+                        <li><a class="dropdown-item" href="Rainforests & Waterfalls.php">Rainforests & Waterfalls</a></li>
+                        <li><a class="dropdown-item" href="Beaches & Activities.php">Beaches & Activities</a></li>
+                        <li><a class="dropdown-item" href="Heritage & Religious.php">Heritage & Religious</a></li>
+                        <li><a class="dropdown-item" href="Hiking, Camping & Adventure.php">Hiking, Camping & Adventure</a></li>
+                        <li><a class="dropdown-item" href="Accomedations.php">Accomedations</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn2n btn btn-outline-dark" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn2n btn btn-outline-dark" href="aboutus.php">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn2n btn btn-outline-dark" href="#">Join Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+  <!------------------------------ Background image/ Background Text/ Search bar ---------------------------------->
+  
+    <div class="background-image" style="background-image: url('../Images/Backgrounds/Accommodation.jpg');">
+      <div class="text-overlay">
+      Villas in Srilanka
+      </div>
+      <div class="search-bar">
+    <input id="searchInput" type="text" placeholder="Search...">
+    <button type="submit">Search</button>
+    <div id="suggestions"></div>
+      </div>
+    </div>
+  
+   <!-------------------------------------------------- Cards ------------------------------------------------------>
+  
+    
+    
+        <div class="cards-container">
+        <!-- All the existing card elements -->
+        <div class="card card-container">
+      
+  <!-------------------------------------------- Card 1 content ---------------------------------------------------->
+  
+  <div class="card-message">Click for contact details</div>
+          <img src="../Images/Hotels/Cinnamon Citadel.jpg" alt="Image" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title"><center>Cinnamon Citadel</center></h2><br>
+  
+            <div class="description">
+              <blockquote>
+                <p><strong>Category:</strong> Hotels</p>
+                <p><strong>Stars:</strong> ★ ★ ★ ★ ★</p>
+                <p><strong>Rooms:</strong> 121</p>
+                <p><strong>Registration No:</strong> SLTDA/SQA/HC/114</p>
+                <p><strong>Licence No:</strong> HC/2023/0042</p>
+                <p><strong>Validity status of licence:</strong> Valid till 31st December 2023</p>
+              </blockquote>
+            </div>
+  
+            <div class="contact-details hidden">
+              <div class="social-details">
+                <p><strong>Tel:</strong><a href="tel:0812234365" style="text-decoration: none; color: inherit;"> 0812234365</a></p>
+                <p><strong>Web:</strong> <a href="https://www.chaayahotels.com" style="text-decoration: none; color: inherit;"> www.chaayahotels.com</a></p>
+                <p><strong>Email:</strong><a href="mailto:accountant.citadel@cinnamonhotels.com" style="text-decoration: none; color: inherit;"> citadel@cinnamonhotels.com</a></p>
+                <p><strong>Address:</strong><a href="https://goo.gl/maps/nBbBAdCosmpeJj587" style="text-decoration: none; color: inherit;"> Ratwatta Mawatha,Kandy</a></p>
+              </div>
+            </div>
+  
+            <div class="social-icons">
+              <a href="https://www.facebook.com/johnkeellshotels/" class="icon-link"><img src="../Images/Social media icons/facebook.png" alt="Facebook"></a>
+              <a href="#" class="icon-link" onclick="checkInstagramAccount()"><img src="../Images/Social media icons/instagram.png" alt="Instagram"></a>
+              <a href="https://www.youtube.com/user/johnkeellshotels/" class="icon-link"><img src="../Images/Social media icons/youtube.png" alt="Youtube"></a>
+              <a href="https://twitter.com/keellshotels/" class="icon-link"><img src="../Images/Social media icons/twitter.png" alt="Twitter"></a>
+            </div>
+  
+            <a href="https://www.cinnamonhotels.com/cinnamoncitadelkandy" class="btn btn-primary btn-book">Book Now</a>
+  
+          </div>
+            </div>
+  <!-------------------------------------------- Card 2 content ---------------------------------------------------->
+  
+        <div class="card card-container">
+  <div class="card-message">Click for contact details</div>
+          <img src="../Images/Hotels/Amaya Hills.jpg" alt="Image" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title"><center>Amaya Hills</center></h2><br>
+  
+            <div class="description">
+              <blockquote>
+                <p><strong>Category:</strong> Hotels</p>
+                <p><strong>Stars:</strong> ★ ★ ★ ★ ★</p>
+                <p><strong>Rooms:</strong> 100</p>
+                <p><strong>Registration No:</strong> SLTDA/SQA/HC/088</p>
+                <p><strong>Licence No:</strong> HC/2023/0086</p>
+                <p><strong>Validity status of licence:</strong> Valid till 31st December 2023</p>
+              </blockquote>
+            </div>
+  
+            <div class="contact-details hidden">
+              <div class="social-details">
+                <p><strong>Tel:</strong><a href="tel:0112306000" style="text-decoration: none; color: inherit;"> 0112306000</a></p>
+                <p><strong>Web:</strong> <a href="https://www.cinnamonhotels.com" style="text-decoration: none; color: inherit;"> www.cinnamonhotels.com</a></p>
+                <p><strong>Email:</strong><a href="mailto:lodge@cinnamonhotels.com" style="text-decoration: none; color: inherit;"> lodge@cinnamonhotels.com</a></p>
+                <p><strong>Address:</strong><a href="https://goo.gl/maps/sS1XgAf2931UeRbe9" style="text-decoration: none; color: inherit;"> Goyambokka Estate, Tangalle</a></p>
+              </div>
+            </div>
+  
+            <div class="social-icons">
+              <a href="https://www.facebook.com/amayaresorts/" class="icon-link"><img src="../Images/Social media icons/facebook.png" alt="Facebook"></a>
+              <a href="#" class="icon-link" onclick="checkInstagramAccount()"><img src="../Images/Social media icons/instagram.png" alt="Instagram"></a>
+              <a href="https://www.youtube.com/AmayaResort/" class="icon-link"><img src="../Images/Social media icons/youtube.png" alt="Youtube"></a>
+              <a href="https://twitter.com/AmayaResort/" class="icon-link"><img src="../Images/Social media icons/twitter.png" alt="Twitter"></a>
+            </div>
+  
+            <a href="https://www.amayaresorts.com/amayahills/" class="btn btn-primary btn-book">Book Now</a>
+  
+          </div>
+            </div>
+  <!-------------------------------------------- Card 3 content ---------------------------------------------------->
+  
+        <div class="card card-container">
+  <div class="card-message">Click for contact details</div>
+          <img src="../Images/Hotels/Cinnamon Lodge.jpg" alt="Image" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title"><center>Cinnamon Lodge</center></h2><br>
+  
+            <div class="description">
+              <blockquote>
+                <p><strong>Category:</strong> Hotels</p>
+                <p><strong>Stars:</strong> ★ ★ ★ ★ ★</p>
+                <p><strong>Rooms:</strong> 162</p>
+                <p><strong>Registration No:</strong> SLTDA/SQA/HC/144</p>
+                <p><strong>Licence No:</strong> HC/2023/0053</p>
+                <p><strong>Validity status of licence:</strong> Valid till 31st December 2023</p>
+              </blockquote>
+            </div>
+  
+            <div class="contact-details hidden">
+              <div class="social-details">
+                <p><strong>Tel:</strong><a href="tel:0112306000" style="text-decoration: none; color: inherit;"> 0112306000</a></p>
+                <p><strong>Web:</strong> <a href="https://www.cinnamonhotels.com" style="text-decoration: none; color: inherit;"> www.cinnamonhotels.com</a></p>
+                <p><strong>Email:</strong><a href="mailto:accountant.lodge@cinnamonhotels.com" style="text-decoration: none; color: inherit;"> lodge@cinnamonhotels.com</a></p>
+                <p><strong>Address:</strong><a href="https://goo.gl/maps/sS1XgAf2931UeRbe9" style="text-decoration: none; color: inherit;"> Goyambokka Estate, Tangalle</a></p>
+              </div>
+            </div>
+  
+            <div class="social-icons">
+              <a href="https://www.facebook.com/johnkeellshotels/" class="icon-link"><img src="../Images/Social media icons/facebook.png" alt="Facebook"></a>
+              <a href="#" class="icon-link" onclick="checkInstagramAccount()"><img src="../Images/Social media icons/instagram.png" alt="Instagram"></a>
+              <a href="https://www.youtube.com/user/johnkeellshotels/" class="icon-link"><img src="../Images/Social media icons/youtube.png" alt="Youtube"></a>
+              <a href="https://twitter.com/keellshotels/" class="icon-link"><img src="../Images/Social media icons/twitter.png" alt="Twitter"></a>
+            </div>
+  
+            <a href="https://www.cinnamonhotels.com/cinnamonlodgehabarana/" class="btn btn-primary btn-book">Book Now</a>
+  
+          </div>
+            </div>
+  <!-------------------------------------------- Card 4 content ---------------------------------------------------->
+      
+            <div class="card card-container">
+  <div class="card-message">Click for contact details</div>
+          <img src="../Images/Hotels/Heritance Kandalama.jpg" alt="Image" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title"><center>Heritance Kandalama</center></h2><br>
+  
+            <div class="description">
+              <blockquote>
+                <p><strong>Category:</strong> Hotels</p>
+                <p><strong>Stars:</strong> ★ ★ ★ ★ ★</p>
+                <p><strong>Rooms:</strong> 162</p>
+                <p><strong>Registration No:</strong> SLTDA/SQA/HC/080</p>
+                <p><strong>Licence No:</strong> HC/2023/0027</p>
+                <p><strong>Validity status of licence:</strong> Valid till 31st December 2023</p>
+              </blockquote>
+            </div>
+  
+            <div class="contact-details hidden">
+              <div class="social-details">
+                <p><strong>Tel:</strong><a href="tel:0665555000" style="text-decoration: none; color: inherit;"> 0665555000</a></p>
+                <p><strong>Web:</strong> <a href="https://www.heritancehotels.com" style="text-decoration: none; color: inherit;"> www.heritancehotels.com</a></p>
+                <p><strong>Email:</strong><a href="mailto:fc.kandalama@heritancehotels.com" style="text-decoration: none; color: inherit;"> kandalama@heritancehotels.com</a></p>
+                <p><strong>Address:</strong><a href="https://goo.gl/maps/zQsmhJPT8wd5MGJK9" style="text-decoration: none; color: inherit;"> P. O. Box 11, Dambulla.</a></p>
+              </div>
+            </div>
+  
+            <div class="social-icons">
+              <a href="https://www.facebook.com/ASHSriLanka?ref=ts/" class="icon-link"><img src="../Images/Social media icons/facebook.png" alt="Facebook"></a>
+              <a href="#" class="icon-link" onclick="checkInstagramAccount()"><img src="../Images/Social media icons/instagram.png" alt="Instagram"></a>
+              <a href="https://twitter.com/AitkenHotels/" class="icon-link"><img src="../Images/Social media icons/youtube.png" alt="Youtube"></a>
+              <a href="https://www.youtube.com/aitkenspencehotels/" class="icon-link"><img src="../Images/Social media icons/twitter.png" alt="Twitter"></a>
+            </div>
+  
+            <a href="https://www.heritancehotels.com/kandalama/" class="btn btn-primary btn-book">Book Now</a>
+  
+          </div>
+            </div>
+  <!-------------------------------------------- Card 5 content ---------------------------------------------------->
+      
+            <div class="card card-container">
+  <div class="card-message">Click for contact details</div>
+          <img src="../Images/Hotels/Araliya Green Hills Hotel.jpg" alt="Image" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title"><center>Araliya Green Hills Hotel</center></h2><br>
+  
+            <div class="description">
+              <blockquote>
+                <p><strong>Category:</strong> Hotels</p>
+                <p><strong>Stars:</strong> ★ ★ ★ ★</p>
+                <p><strong>Rooms:</strong> 107</p>
+                <p><strong>Registration No:</strong> SLTDA/SQA/HC/00197</p>
+                <p><strong>Licence No:</strong> HC/2022/0072</p>
+                <p><strong>Validity status of licence:</strong> Expired on 2022</p>
+              </blockquote>
+            </div>
+  
+            <div class="contact-details hidden">
+              <div class="social-details">
+                <p><strong>Tel:</strong><a href="tel:0522224150" style="text-decoration: none; color: inherit;"> 0522224150</a></p>
+                <p><strong>Web:</strong> <a href="https://www.araliyaresorts.com" style="text-decoration: none; color: inherit;"> www.arliyagreenhills.com</a></p>
+                <p><strong>Email:</strong><a href="mailto:secretary@araliyagreenhills.com" style="text-decoration: none; color: inherit;"> secretary@araliyagreenhills.com</a></p>
+                <p><strong>Address:</strong><a href="https://goo.gl/maps/3ZwVkjjtPAWHco7C8" style="text-decoration: none; color: inherit;"> Glen Fall Road, Nuwara Eliya</a></p>
+              </div>
+            </div>
+  
+            <div class="social-icons">
+              <a href="#" class="icon-link" onclick="checkFacebookAccount()"><img src="../Images/Social media icons/facebook.png" alt="Facebook"></a>
+              <a href="#" class="icon-link" onclick="checkInstagramAccount()"><img src="../Images/Social media icons/instagram.png" alt="Instagram"></a>
+              <a href="#" class="icon-link" onclick="checkYoutubeAccount()"><img src="../Images/Social media icons/youtube.png" alt="Youtube"></a>
+              <a href="#" class="icon-link" onclick="checkTwitterAccount()"><img src="../Images/Social media icons/twitter.png" alt="Twitter"></a>
+            </div>
+  
+            <a href="https://www.araliyaresorts.com/" class="btn btn-primary btn-book">Book Now</a>
+  
+          </div>
+            </div>
+  <!-------------------------------------------- Card 6 content ---------------------------------------------------->
+  
+  
+        <div class="card card-container">
+  <div class="card-message">Click for contact details</div>
+          <img src="../Images/Hotels/Arie Lagoon.jpg" alt="Image" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title"><center>Arie Lagoon</center></h2><br>
+  
+            <div class="description">
+              <blockquote>
+                <p><strong>Category:</strong> Hotels</p>
+                <p><strong>Stars:</strong> ★ ★ ★</p>
+                <p><strong>Rooms:</strong> 55</p>
+                <p><strong>Registration No:</strong> SLTDA/SQA/HC/00214</p>
+                <p><strong>Licence No:</strong> HC/2022/0086</p>
+                <p><strong>Validity status of licence:</strong> Expired on 2022</p>
+              </blockquote>
+            </div>
+  
+            <div class="contact-details hidden">
+              <div class="social-details">
+                <p><strong>Tel:</strong><a href="tel:0114327818" style="text-decoration: none; color: inherit;"> 0114327818</a></p>
+                <p><strong>Web:</strong> <a href="https://www.arielagoon.com" style="text-decoration: none; color: inherit;"> www.arielagoon.com</a></p>
+                <p><strong>Email:</strong><a href="mailto:ca@arielagoon.com" style="text-decoration: none; color: inherit;"> ca@arielagoon.com</a></p>
+                <p><strong>Address:</strong><a href="https://goo.gl/maps/HWkcCnCc2MSkpBey5" style="text-decoration: none; color: inherit;"> Thalahena, Negombo</a></p>
+              </div>
+            </div>
+  
+            <div class="social-icons">
+              <a href="#" class="icon-link" onclick="checkFacebookAccount()"><img src="../Images/Social media icons/facebook.png" alt="Facebook"></a>
+              <a href="#" class="icon-link" onclick="checkInstagramAccount()"><img src="../Images/Social media icons/instagram.png" alt="Instagram"></a>
+              <a href="#" class="icon-link" onclick="checkYoutubeAccount()"><img src="../Images/Social media icons/youtube.png" alt="Youtube"></a>
+              <a href="#" class="icon-link" onclick="checkTwitterAccount()"><img src="../Images/Social media icons/twitter.png" alt="Twitter"></a>
+            </div>
+  
+            <a href="https://bookings.royalorchidhotels.com/property/5731/bookings/manage/" class="btn btn-primary btn-book">Book Now</a>
+  
+          </div>
+            </div>
+  
+  <!-------------------------------------------- Card 7 content ---------------------------------------------------->
+  
+   
+   <div class="card card-container">
+  <div class="card-message">Click for contact details</div>
+          <img src="../Images/Hotels/Austrian Beach Resort.jpg" alt="Image" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title"><center>Austrian Beach Resort</center></h2><br>
+  
+            <div class="description">
+              <blockquote>
+                <p><strong>Category:</strong> Hotels</p>
+                <p><strong>Stars:</strong> ★</p>
+                <p><strong>Rooms:</strong> 10</p>
+                <p><strong>Registration No:</strong> SLTDA/SQA/HC/107</p>
+                <p><strong>Licence No:</strong> HC/2019/0121</p>
+                <p><strong>Validity status of licence:</strong> Expired on 2019</p>
+              </blockquote>
+            </div>
+  
+            <div class="contact-details hidden">
+              <div class="social-details">
+                <p><strong>Tel:</strong><a href="tel:0412257360" style="text-decoration: none; color: inherit;"> 0412257360</a></p>
+                <p><strong>Web:</strong> <a href="http://www.austrianbeach.com" style="text-decoration: none; color: inherit;"> http://www.austrianbeach.com/</a></p>
+                <p><strong>Email:</strong><a href="mailto:office@austrianbeach.com" style="text-decoration: none; color: inherit;"> office@austrianbeach.com</a></p>
+                <p><strong>Address:</strong><a href="https://goo.gl/maps/AUgMC5TNd7tuvQ138" style="text-decoration: none; color: inherit;"> Kemagoda, Dickwella</a></p>
+              </div>
+            </div>
+  
+            <div class="social-icons">
+              <a href="#" class="icon-link" onclick="checkFacebookAccount()"><img src="../Images/Social media icons/facebook.png" alt="Facebook"></a>
+              <a href="#" class="icon-link" onclick="checkInstagramAccount()"><img src="../Images/Social media icons/instagram.png" alt="Instagram"></a>
+              <a href="#" class="icon-link" onclick="checkYoutubeAccount()"><img src="../Images/Social media icons/youtube.png" alt="Youtube"></a>
+              <a href="#" class="icon-link" onclick="checkTwitterAccount()"><img src="../Images/Social media icons/twitter.png" alt="Twitter"></a>
+            </div>
+  
+            <a href="#" class="btn btn-primary btn-book" onclick="checkBookingAccount()">Book Now</a>
+  
+          </div>
+            </div>
+  
+  <!-------------------------------------------- Card 8 content ---------------------------------------------------->
+    
+            <div class="card card-container">
+  <div class="card-message">Click for contact details</div>
+          <img src="../Images/Hotels/Berjaya Royal Beach Hotel.jpg" alt="Image" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title"><center>Berjaya Royal Beach Hotel</center></h2><br>
+  
+            <div class="description">
+              <blockquote>
+                <p><strong>Category:</strong> Hotels</p>
+                <p><strong>Stars:</strong> ★ ★</p>
+                <p><strong>Rooms:</strong> 90</p>
+                <p><strong>Registration No:</strong> SLTDA/SQA/HC/149</p>
+                <p><strong>Licence No:</strong> HC/2023/0011</p>
+                <p><strong>Validity status of licence:</strong> Valid till 31st December 2023</p>
+              </blockquote>
+            </div>
+  
+            <div class="contact-details hidden">
+              <div class="social-details">
+                <p><strong>Tel:</strong><a href="tel:0112739610" style="text-decoration: none; color: inherit;"> 0112739610</a></p>
+                <p><strong>Web:</strong> <a href="https://www.berjayahotel.com/colombo/en" style="text-decoration: none; color: inherit;"> www.berjayahotel.com</a></p>
+                <p><strong>Email:</strong><a href="mailto:chandana.g@berjayahotel.com" style="text-decoration: none; color: inherit;"> chandana.g@berjayahotel.com</a></p>
+                <p><strong>Address:</strong><a href="https://goo.gl/maps/YxWacgDugNwucHWM6" style="text-decoration: none; color: inherit;"> Collage Avenue,Mount Lavinia</a></p>
+              </div>
+            </div>
+  
+            <div class="social-icons">
+              <a href="https://www.facebook.com/BerjayaHotelsResorts" class="icon-link"><img src="../Images/Social media icons/facebook.png" alt="Facebook"></a>
+              <a href="#" class="icon-link" onclick="checkInstagramAccount()"><img src="../Images/Social media icons/instagram.png" alt="Instagram"></a>
+              <a href="#" class="icon-link" onclick="checkYoutubeAccount()"><img src="../Images/Social media icons/youtube.png" alt="Youtube"></a>
+              <a href="#" class="icon-link" onclick="checkTwitterAccount()"><img src="../Images/Social media icons/twitter.png" alt="Twitter"></a>
+            </div>
+  
+            <a href="https://www.berjayahotel.com/colombo" class="btn btn-primary btn-book">Book Now</a>
+  
+          </div>
+            </div>
+  <!-------------------------------------------- Card 9 content ---------------------------------------------------->
+    
+            <div class="card card-container">
+  <div class="card-message">Click for contact details</div>
+          <img src="../Images/Hotels/Cinnamon Grand Hotel.jpg" alt="Image" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title"><center>Cinnamon Grand Hotel</center></h2><br>
+  
+            <div class="description">
+              <blockquote>
+                <p><strong>Category:</strong> Hotels</p>
+                <p><strong>Stars:</strong> ★ ★ ★ ★ ★</p>
+                <p><strong>Rooms:</strong> 501</p>
+                <p><strong>Registration No:</strong> SLTDA/SQA/HC/001</p>
+                <p><strong>Licence No:</strong> HC/2023/0059</p>
+                <p><strong>Validity status of licence:</strong> Valid till 31st December 2023</p>
+              </blockquote>
+            </div>
+  
+            <div class="contact-details hidden">
+              <div class="social-details">
+                <p><strong>Tel:</strong><a href="tel:0662286809" style="text-decoration: none; color: inherit;"> 0662286809</a></p>
+                <p><strong>Web:</strong> <a href="https://www.cinnamonhotels.com" style="text-decoration: none; color: inherit;"> www.cinnamonhotels.com</a></p>
+                <p><strong>Email:</strong><a href="mailto:fazal@cinnamonhotels.com" style="text-decoration: none; color: inherit;"> fazal@cinnamonhotels.com</a></p>
+                <p><strong>Address:</strong><a href="https://goo.gl/maps/b8jnj57KVRwtuX1s9" style="text-decoration: none; color: inherit;"> Galle Road, Colombo 03</a></p>
+              </div>
+            </div>
+  
+            <div class="social-icons">
+              <a href="https://www.facebook.com/CinnamonGrandC/" class="icon-link"><img src="../Images/Social media icons/facebook.png" alt="Facebook"></a>
+              <a href="#" class="icon-link" onclick="checkInstagramAccount()"><img src="../Images/Social media icons/instagram.png" alt="Instagram"></a>
+              <a href="#" class="icon-link" onclick="checkYoutubeAccount()"><img src="../Images/Social media icons/youtube.png" alt="Youtube"></a>
+              <a href="https://twitter.com/CinnamonGrandC/" class="icon-link"><img src="../Images/Social media icons/twitter.png" alt="Twitter"></a>
+            </div>
+  
+            <a href="https://www.cinnamonhotels.com/cinnamongrandcolombo/" class="btn btn-primary btn-book">Book Now</a>
+  
+          </div>
+            </div>
+  <!-------------------------------------------- Card 10 content ---------------------------------------------------->
+  
+        <div class="card card-container">
+  <div class="card-message">Click for contact details</div>
+          <img src="../Images/Hotels/Cinnamon Lakeside Hotel.jpg" alt="Image" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title"><center>Cinnamon Lakeside Hotel</center></h2><br>
+  
+            <div class="description">
+              <blockquote>
+                <p><strong>Category:</strong> Hotels</p>
+                <p><strong>Stars:</strong> ★ ★ ★ ★ ★</p>
+                <p><strong>Rooms:</strong> 352</p>
+                <p><strong>Registration No:</strong> SLTDA/SQA/HC/062</p>
+                <p><strong>Licence No:</strong> HC/2023/0058</p>
+                <p><strong>Validity status of licence:</strong> Valid till 31st December 2023</p>
+              </blockquote>
+            </div>
+  
+            <div class="contact-details hidden">
+              <div class="social-details">
+                <p><strong>Tel:</strong><a href="tel:0112491000" style="text-decoration: none; color: inherit;"> 0112491000</a></p>
+                <p><strong>Web:</strong> <a href="https://www.cinnamonhotels.com" style="text-decoration: none; color: inherit;"> www.cinnamonhotels.com</a></p>
+                <p><strong>Email:</strong><a href="mailto:nilanthi@cinnamonhotels.com" style="text-decoration: none; color: inherit;"> nilanthi@cinnamonhotels.com</a></p>
+                <p><strong>Address:</strong><a href="https://goo.gl/maps/JJqSP2tsnjd2wtc5A" style="text-decoration: none; color: inherit;"> Gardiner Mawatha,Colombo 2</a></p>
+              </div>
+            </div>
+  
+            <div class="social-icons">
+              <a href="https://www.facebook.com/cinnamonlakeside/" class="icon-link"><img src="../Images/Social media icons/facebook.png" alt="Facebook"></a>
+              <a href="#" class="icon-link" onclick="checkInstagramAccount()"><img src="../Images/Social media icons/instagram.png" alt="Instagram"></a>
+              <a href="#" class="icon-link" onclick="checkYoutubeAccount()"><img src="../Images/Social media icons/youtube.png" alt="Youtube"></a>
+              <a href="https://twitter.com/CnmnLakeside/" class="icon-link"><img src="../Images/Social media icons/twitter.png" alt="Twitter"></a>
+            </div>
+  
+            <a href="https://www.cinnamonhotels.com/cinnamonlakesidecolombo/" class="btn btn-primary btn-book">Book Now</a>
+  
+          </div>
+            </div>
+  <!-------------------------------------------- Card 11 content ---------------------------------------------------->
+  
+        <div class="card card-container">
+  <div class="card-message">Click for contact details</div>
+          <img src="../Images/Hotels/Galadari Hotel.jpg" alt="Image" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title"><center>Galadari Hotel</center></h2><br>
+  
+            <div class="description">
+              <blockquote>
+                <p><strong>Category:</strong> Hotels</p>
+                <p><strong>Stars:</strong> ★ ★ ★</p>
+                <p><strong>Rooms:</strong> 408</p>
+                <p><strong>Registration No:</strong> SLTDA/SQA/HC/061</p>
+                <p><strong>Licence No:</strong> HC/2023/0016</p>
+                <p><strong>Validity status of licence:</strong> Valid till 31st December 2023</p>
+              </blockquote>
+            </div>
+  
+            <div class="contact-details hidden">
+              <div class="social-details">
+                <p><strong>Tel:</strong><a href="tel:0112544544" style="text-decoration: none; color: inherit;"> 0112544544</a></p>
+                <p><strong>Web:</strong> <a href="https://www.galadarihotel.lk" style="text-decoration: none; color: inherit;"> www.galadarihotel.lk</a></p>
+                <p><strong>Email:</strong><a href="mailto:prasad@galadari.lk" style="text-decoration: none; color: inherit;"> prasad@galadari.lk</a></p>
+                <p><strong>Address:</strong><a href="https://goo.gl/maps/KBDJv1ZDrU3qPE7FA" style="text-decoration: none; color: inherit;"> GLotus Road,Colombo 1</a></p>
+              </div>
+            </div>
+  
+            <div class="social-icons">
+              <a href="https://en-gb.facebook.com/GaladariHotel" class="icon-link"><img src="../Images/Social media icons/facebook.png" alt="Facebook"></a>
+              <a href="#" class="icon-link" onclick="checkInstagramAccount()"><img src="../Images/Social media icons/instagram.png" alt="Instagram"></a>
+              <a href="#" class="icon-link" onclick="checkYoutubeAccount()"><img src="../Images/Social media icons/youtube.png" alt="Youtube"></a>
+              <a href="https://twitter.com/GaladariHotel" class="icon-link"><img src="../Images/Social media icons/twitter.png" alt="Twitter"></a>
+            </div>
+  
+            <a href="http://www.galadarihotel.lk/" class="btn btn-primary btn-book">Book Now</a>
+  
+          </div>
+            </div>
+  
+  <!-------------------------------------------- Card 12 content ---------------------------------------------------->
+      
+            <div class="card card-container">
+  <div class="card-message">Click for contact details</div>
+          <img src="../Images/Hotels/Anantara Peace Heaven Resort.jpg" alt="Image" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title"><center>Anantara Peace Heaven Resort</center></h2><br>
+  
+            <div class="description">
+              <blockquote>
+                <p><strong>Category:</strong> Hotels</p>
+                <p><strong>Stars:</strong> ★ ★ ★ ★ ★</p>
+                <p><strong>Rooms:</strong> 152</p>
+                <p><strong>Registration No:</strong> SLTDA/SQA/HC/00172</p>
+                <p><strong>Licence No:</strong> HC/2023/0033</p>
+                <p><strong>Validity status of licence:</strong> Valid till 31st December 2023</p>
+              </blockquote>
+            </div>
+  
+            <div class="contact-details hidden">
+              <div class="social-details">
+                <p><strong>Tel:</strong><a href="tel:0472244455" style="text-decoration: none; color: inherit;"> 0472244455</a></p>
+                <p><strong>Web:</strong> <a href="https://www.anantara.com" style="text-decoration: none; color: inherit;"> www.anantara.com</p>
+                <p><strong>Email:</strong><a href="mailto:wudari@anantara.com" style="text-decoration: none; color: inherit;"> wudari@anantara.com</a></p>
+                <p><strong>Address:</strong><a href="https://goo.gl/maps/nWg7JRMTkFyJs2G4A" style="text-decoration: none; color: inherit;"> Goyambokka Estate, Tangalle</a></p>
+              </div>
+            </div>
+  
+            <div class="social-icons">
+              <a href="#" class="icon-link" onclick="checkFacebookAccount()"><img src="../Images/Social media icons/facebook.png" alt="Facebook"></a>
+              <a href="#" class="icon-link" onclick="checkInstagramAccount()"><img src="../Images/Social media icons/instagram.png" alt="Instagram"></a>
+              <a href="#" class="icon-link" onclick="checkYoutubeAccount()"><img src="../Images/Social media icons/youtube.png" alt="Youtube"></a>
+              <a href="#" class="icon-link" onclick="checkTwitterAccount()"><img src="../Images/Social media icons/twitter.png" alt="Twitter"></a>
+            </div>
+  
+            <a href="https://www.anantara.com/en" class="btn btn-primary btn-book">Book Now</a>
+  
+          </div>
+            </div>
+     
+  <!-------------------------------------------------------------------------- Add more card elements here if needed -------------------------------------------------------------->
+       
+      </div>
+    </div>
+       
+  <!-------------------------------------------- not-found-message ---------------------------------------------------->
+        
+  
+    <div  id="notFoundMessage" class="not-found-message"><b>Sorry, search item not found on this web page.<br><br></b></div>
+  
+  <!-------------------------------------------- footer ---------------------------------------------------->
+  
+  <footer class="footer">
+    <div class="container" style="text-align: center;">
+      <div class="row">
+        <div class="footer-col col-md-4 mt-3 ">
+          <ul style="list-style-type:none;">
+            <div class="footer-img">
+              <img src="../Images/Logos/walkers-footer.png" alt="" style="max-width: 200px;">
+            </div>
+          </ul>
+        </div>
+        <div class="footer-col col-md-2 mt-3 ">
+          <ul style="list-style-type:none;">
+            <h5 class="footer-topics">Menu</h5>
+            <li class="footer-listed-items"><a href="www.google.com">Home</a></li>
+            <li class="footer-listed-items"><a href="www.google.com">FAQ</a></li>
+            <li class="footer-listed-items"><a href="www.google.com">About Us</a></li>
+            <li class="footer-listed-items"><a href="www.google.com">Join Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col col-md-2 mt-3">
+          <ul style="list-style-type:none;">
+            <h5 class="footer-topics">Catogaries</h5>
+            <li class="footer-listed-items"><a href="www.google.com" target="_blank">Heritage</a></li>
+            <li class="footer-listed-items"><a href="www.google.com" target="_blank">Beaches</a></li>
+            <li class="footer-listed-items"><a href="www.google.com" target="_blank">Wild-Life</a></li>
+            <li class="footer-listed-items"><a href="www.google.com" target="_blank">Rainforests</a></li>
+            <li class="footer-listed-items"><a href="www.google.com" target="_blank">Adventure</a></li>
+            <li class="footer-listed-items"><a href="www.google.com" target="_blank">Accomedations</a></li>
+          </ul>
+        </div>
+        <div class="footer-col col-md-4 mt-3">
+          <h4>Thank You</h4>
+          <p class="contact-footer"></p>
+          <button type="button" class="btn2 btn btn-dark btn2-rounded ms-2 btn1"><a href="">Back To Home</a></button>
+
+        </div>
+      </div>
+    </div>
+    <div style="height: 50px; max-width: 100%; background-color: #13005A ;" class="copyright-div">
+      <p class="copyright">Copyright © 2023 Walkers Sri Lanka. All rights reserved</p>
+    </div>
+  </footer>
+  
+    <!-------------------------------------------- scripts ---------------------------------------------------->
+  
+    <script src="../scripts/Cards.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   
+  </body>
+  </html>
+  
