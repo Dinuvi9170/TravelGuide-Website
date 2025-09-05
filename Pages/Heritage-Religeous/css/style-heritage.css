@@ -1,0 +1,195 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: #c6c6c6;
+  text-decoration: none;
+}
+
+a:hover {
+  transform: translateX(5px);
+  color: #fff;
+}
+
+.active-color {
+  background-color: #c6c6c6;
+}
+
+.navbar {
+  transition: all 0.5s;
+  background: linear-gradient(to Right, #c59041, #412b0e);
+}
+
+.navbar-scrolled {
+  box-shadow: 0 8px 6px -6px #000000;
+}
+
+.herotopic {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  padding: 20px;
+  text-align: center;
+  animation: slideIn 1s ease forwards;
+}
+
+.herotopic h1 {
+  font-size: 100px;
+  font-weight: 800;
+}
+
+
+.herosection {
+  background-image: url(../img/srilanka-polonnaruwa-city.jpg) ;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 80vh;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+  .herotopic h1{
+    font-size: 80px;
+    font-weight: 800;
+  }
+}
+
+@media (max-width: 574px) {
+  .herotopic h1{
+    font-size: 60px;
+    font-weight: 700;
+  }
+}
+
+  
+  .btn-rounded {
+    border-radius: 3em;
+  }
+  
+  .navjoin {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.5px;
+    border-radius: 3em;
+  }
+
+.herotext {
+    text-align: center;
+    margin-top: -320px;
+    color: #ffff;
+    font-size: 100px;
+    font-weight: 700;
+    opacity: 80%;
+}
+
+
+.btn {
+  background-size: 200%;
+  transition: 0.6s;
+  border: none;
+}
+
+.btn1:hover {
+  background-image: linear-gradient(to left,#412b0e, #c59041, #412b0e);
+  background-position: right;
+}
+
+/* ----footer section----- */
+
+.footer {
+  background : linear-gradient(to Right, #c59041, #412b0e);
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom:0;
+}
+
+.footer-topics {
+  color: #ffffff;
+  transition: 0.4s;
+
+}
+.footer-topics:hover {
+  transform: translateX(5px);
+  color: #fff; 
+}
+
+.footer-listed-items {
+  color: #c0c0c0;
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: smaller;
+}
+
+.footer-listed-items:hover {
+  transform: translateX(5px);
+  color: #fff; 
+}
+
+
+.input-footer{
+  font-size: smaller;
+  width: 300px;
+  background-color: #616161;
+  border-color: #ffffff;
+  border-radius: 1em;
+  border-style: solid;
+  color: #fff;
+}
+
+.contact-footer {
+  font-size: x-small;
+  cursor: pointer;
+}
+
+.copyright-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  font-size: 10px;
+  opacity: 50%;
+}
+
+
+
+/* Responsive */
+
+@media (max-width:767px){
+  .footer-col {
+     width: 25%;
+     margin-bottom: 30px;
+  }
+}
+
+@media (max-width:574px){
+  .footer-col {
+     width: 100%;
+     
+  }
+} 

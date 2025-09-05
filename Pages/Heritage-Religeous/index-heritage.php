@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heritage and Religious</title>
+    <link rel="icon" href="img/walkers-footer.png" />
+
+    <!--jQuery-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+
+    <link rel="stylesheet" href="css/style-heritage.css" />
+  </head>
+  <body>
+    <!--NavBar--------------------------------------------Start-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top navbar-scrolled">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"
+        ><img src="img/walkers1.png " style="width: 40px; height: auto" alt=""
+      /></a>
+      <h5 style="font-weight: 800"></h5>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-2">
+          <li class="nav-item">
+            <a
+              class="nav-link btn btn-outline-dark"
+              aria-current="page"
+              href="#"
+              >Home</a>
+          </li>
+          <li class="nav-item">
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Catogaries
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Wild-Life & Safari</a></li>
+                    <li><a class="dropdown-item" href="#">Rainforests & Waterfalls</a></li>
+                    <li><a class="dropdown-item" href="#">Beaches & Activities</a></li>
+                    <li><a class="dropdown-item active-color" href="#">Heritage & Religious</a></li>
+                    <li><a class="dropdown-item " href="#">Hiking, Camping & Adventure</a></li>
+                    <li><a class="dropdown-item" href="#">Accomedations</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-outline-dark" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-outline-dark" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-outline-dark" href="#">Join Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--NavBar--------------------------------------------------------End-->
+
+    <!--Hero sec----------------------------------------------------start-->
+    <div class="herosection">
+      <div class="herotopic">
+      <h1>Heritage & Religious Sri Lanka</h1>
+    </div>
+    </div>
+    <!--Hero sec----------------------------------------------------end-->
+
+    <section>
+      <div class="container" style="margin-top: 50px; margin-bottom: 50px">
+        <p>
+          Heritage and Religion is a unique interdisciplinary MA-track focusing
+          on a major trend at the interface of religion, identity, politics, and
+          heritage studies. It also addresses a gap in critical heritage
+          studies, studying the shifting place of religion in heritage debates.
+        </p>
+      </div>
+    </section>
+
+    <!--card sec----------------------------------------------------start-->
+<section>
+    <div class="container mt-5 mb-5">
+      <div
+        class="card mb-5"
+        onmouseover="changeCardColor(this)"
+        onmouseout="resetCardColor(this)"
+      >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/p5.jpg" class="img-fluid rounded-start" alt="..." />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Temple Of The Tooth</h5>
+              <p class="card-text">
+                The Temple of the Sacred Tooth Relic is a world-renowned place
+                of worship, where the left Canine tooth of Gautama Buddha is
+                enshrined. The temple which is venerated by thousands of local &
+                foreign devotees and tourists daily was named as a world
+                heritage by UNESCO in 1988. The temple which carries a lot of
+                value to Buddhists all over the world also has immense cultural
+                value. The architecture is of unique Kandyan architectural style
+                with a combination of the unique style used to build “Dalada
+                Mandira” the shrines which housed the Sacred Tooth Relic
+                previously in other kingdoms. 
+              </p>
+              <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+                <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                  >See more</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!-- <div class="row crdbcg">
+            <div class="col-md-4 mt-3">
+              <img src="img/p5.jpg" alt="" class="cardimg">
+            </div>
+            <div class="col-md-8 mt-2">
+              <h3>Temple Of The Tooth</h3>
+              <p>The Temple of the Sacred Tooth Relic is a world-renowned place of worship, where the left Canine tooth of Gautama Buddha is enshrined. The temple which is venerated by thousands of local & foreign devotees and tourists daily was named as a world heritage by UNESCO in 1988.
+
+                The temple which carries a lot of value to Buddhists all over the world also has immense cultural value. The architecture is of unique Kandyan architectural style with a combination of the unique style used to build “Dalada Mandira” the shrines which housed the Sacred Tooth Relic previously in other kingdoms.
+                
+                The temple of the Sacred Tooth Relic is built in the city of Kandy near the ancient Royal Palace which is situated to the North of the temple and the forest reserve called “Udawaththa Kelaya” to the East. The famous Kandy Lake also known as “Kiri Muhuda” to the South and “Natha & Paththini Devala” on the West. The temple is adorned with intricate carvings using gold, silver, bronze, and ivory.</p>
+              <button type="button" class="btn btn-dark btn-rounded ms-2 btn1"><a href="">Our Team</a></button>
+            </div>
+    </div>
+    </div> -->
+
+    <div
+      class="card mb-5"
+      onmouseover="changeCardColor(this)"
+      onmouseout="resetCardColor(this)"
+    >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img/p4.jpg" class="img-fluid rounded-start" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Dambulla Cave Temple</h5>
+            <p class="card-text">
+              Located in central Sri Lanka, the Rangiri Dambulla Cave Temple is
+              a living Buddhist site that is focused on a series of five cave
+              shrines. Inhabited by forest-dwelling Buddhist monks since the 3rd
+              century BCE, these natural caves have been transformed
+              continuously throughout the historical period into one of the
+              largest and most outstanding Buddhist complexes in the Southern
+              and South Eastern Asian region, showcasing innovative approaches
+              to interior layout and decoration.
+            </p>
+            <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+              <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                >See more</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="card mb-5"
+      onmouseover="changeCardColor(this)"
+      onmouseout="resetCardColor(this)"
+    >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img/p11.jpg" class="img-fluid rounded-start" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Madhu Church</h5>
+            <p class="card-text">
+              Madhu is a mystic jungle shrine dedicated to Mother Mary lying on
+              a remote area in Mannar. The church is one of the few churches
+              which is visited by Buddhists as well as Hindus from all over the
+              country. The history of Madhu is interesting. The Portuguese
+              invaded Sri Lanka in 1505 and missionaries started poring in to
+              the country to convert the Buddhists and Hindus in to Catholicism
+              by various means. Many on the coastal region converted to this new
+              religion for favors from the new masters.Many Tamils from the
+              North too fell in the hands of the catholic missionaries. In 1640
+              the Dutch took control of the coastal regions of and started
+              spreading their form of Christianity in form of Dutch Reformed
+              Church.
+            </p>
+            <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+              <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                >See more</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="card mb-5"
+      onmouseover="changeCardColor(this)"
+      onmouseout="resetCardColor(this)"
+    >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img/p7.jpg" class="img-fluid rounded-start" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Sandakada Pahana</h5>
+            <p class="card-text">
+              Sandakada Pahana, also known as Moonstone, is a unique feature of
+              the architecture of ancient Sri Lanka. It is an elaborately carved
+              semi-circular stone slab, usually placed at the bottom of
+              staircases and entrances.It is an elaborately carved semi-circular
+              stone slab, usually placed at the bottom of staircases and
+              entrances. First seen in the latter stage of the Anuradhapura
+              period, the sandakada pahana evolved through the Polonnaruwa,
+              Gampola and Kandyan period.
+            </p>
+            <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+              <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                >See more</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="card mb-5"
+      onmouseover="changeCardColor(this)"
+      onmouseout="resetCardColor(this)"
+    >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img/p13.jpg" class="img-fluid rounded-start" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Adams Peak</h5>
+            <p class="card-text">
+              Adam’s Peak, mountain in southwestern Sri Lanka. It is 7,559 feet
+              (2,304 metres) high and located 11 miles (18 km) northeast of
+              Ratnapura, the capital of Sabaragamuwa province. It is well known
+              for the Sri Pada (Sinhala for “Sacred Footprint”), a hollow that
+              is 67 inches (170 cm) long and 18 inches (46 cm) wide and
+              resembles the print of a human foot. The Sri Pada is venerated by
+              Buddhists, Hindus, Christians, and Muslims.
+            </p>
+            <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+              <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                >See more</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="card mb-5"
+      onmouseover="changeCardColor(this)"
+      onmouseout="resetCardColor(this)"
+    >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img/p19.jpg" class="img-fluid rounded-start" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Embekka Temple</h5>
+            <p class="card-text">
+              Embekke Devalaya is situated in Medapalata Korale of Udunuwara in
+              Kandy District. This is a sheltered place used to rest during long
+              pilgrimage or long journeys in ancient days of Sri Lanka. This
+              Ambalama is said to be built during AD 1341–1357 by the King
+              Bhuwanekabhahu IV.It is said that some of the wood work utilized
+              for the "Drummers' Hall" came from an abandoned "Royal Audience
+              Hall" at Gampola. The carvings, which adorn the wooden pillars of
+              the drummers' hall, as well as the "Vahalkada" (the entrance porch
+              of the Devala, which is said to be older) are some of the best
+              examples of Sinhalese art.
+            </p>
+            <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+              <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                >See more</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="card mb-5"
+      onmouseover="changeCardColor(this)"
+      onmouseout="resetCardColor(this)"
+    >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img/p8.jpg" class="img-fluid rounded-start" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Thirukoneswaram kovil</h5>
+            <p class="card-text">
+              Thirukoneswaram temple is a classical medieval Hindu temple
+              complex located in Trincomalee the Eastern Capital of Sri Lanka
+              which is directly linked to the Ramayana Yatra in Sri Lanka as
+              well. This is also known as the Thirukonamalai Konesar Temple –
+              the temple of the thousand pillars and Daskina, Then Kailasam.
+              This is important Hindu religious pilgrimage center in Eastern
+              Province which is famous Ramayana trail related site in Sri Lanka.
+              Thirukoneswaram Hindu Temple is one of the important Pancha
+              Ishwara Hindu kovil in Sri Lanka located in Trincomalee, rightly
+              located on the summit of Swami Rock Trincomalee.
+            </p>
+            <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+              <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                >See more</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="card mb-5"
+      onmouseover="changeCardColor(this)"
+      onmouseout="resetCardColor(this)"
+    >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img/p2.jpg" class="img-fluid rounded-start" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Sigiriya</h5>
+            <p class="card-text">
+              Perched on a slab of rock that juts dramatically over the forests
+              of central Sri Lanka, Sigiriya is as imposing a sight now as it
+              must have been when it was first built by a fierce king in the
+              fifth century A.D. Meaning “lion’s rock,” Sigiriya (designated a
+              UNESCO World Heritage site in 1982) is accessed by way of
+              passageways cut into the rock face between a monumental pair of
+              lion paws. The fortress was later swallowed by the forest, and
+              only familiar to local villagers.
+            </p>
+            <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+              <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                >See more</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="card mb-5"
+      onmouseover="changeCardColor(this)"
+      onmouseout="resetCardColor(this)"
+    >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img/p15.jpg" class="img-fluid rounded-start" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Nagadeepa Rajamaha Viharaya</h5>
+            <p class="card-text">
+              Nagadeepa Purana Vihara is an ancient Buddhist temple situated in
+              the Jaffna district of Northern Province, Sri Lanka. It is among
+              the country's sixteen holiest Buddhist shrines. The site is known
+              as the place where Lord Buddha came during his second visit to Sri
+              Lanka, after five years of attaining Enlightenment, to intervene
+              and mediate in settling a dispute between two Naga Kings,
+              Chulodara and Mahodara over the possession of a gem-studded
+              throne.
+              
+            </p>
+            <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+              <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                >See more</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="card mb-5"
+      onmouseover="changeCardColor(this)"
+      onmouseout="resetCardColor(this)"
+    >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img/p16.jpg" class="img-fluid rounded-start" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Maha Saman Devalaya</h5>
+            <p class="card-text">
+              The Sabaragamuwa Maha Saman Devalaya is considered the main
+              Devalaya of deity Saman except for the Shrine at top of Sri
+              Pada.The history speaks of a temple at Ratnapura area since the
+              time of king Dutugemunu of Anuradhapura Kingdom, But the recent
+              history starts from Dambadeniya period.A court Minister called
+              Aryakamadeva had come over to Ratnapura to make a vow for gemming,
+              and if lucky to build a Devalaya to keep God Sumana Saman’s
+              statue. After a sucessful gem mining expedition, he is said to
+              have built the first devalaya dedicated to God Saman at Ratnapura.
+              Although the devalaya was highly influenced by Hindu culture, it
+              remained a Buddhist place of worship throughout the years.
+            </p>
+            <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+              <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                >See more</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="card mb-5"
+      onmouseover="changeCardColor(this)"
+      onmouseout="resetCardColor(this)"
+    >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img/p18.jpg" class="img-fluid rounded-start" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Ruwanwali Maha Seya</h5>
+            <p class="card-text">
+              Ruwanweliseya Stupa (Ruwanveli Seya Stupa), the foremost of the
+              supremely glorious ancient living monuments of Sinhalese Buddhist
+              Heritage at the city of Anuradhapura (a UNESCO World Heritage
+              Site-Culture) was built by King Dutugamunu (161-137 BC), the Hero
+              of the Nation, who hailed from Ruhuna, which was destined to give
+              birth to most of the glorious heroes of the island nation of Sri
+              Lanka from the ancient era to the modern day. Ruwanweliseya Stupa
+              (Ruwanveli Seya Stupa) also called Maha Stupa (Sinhala: the great
+              dagoba) or Ratnapali Stupa or Swarnamali stupa has been the most
+              adored, most venerated among the great ancient stupas (dagobas) of
+              Sri Lanka.
+            </p>
+            <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+              <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                >See more</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+      <div
+        class="card mb-5"
+        onmouseover="changeCardColor(this)"
+        onmouseout="resetCardColor(this)"
+      >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/p21.webp" class="img-fluid rounded-start" alt="..." />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Pothgul Rajamaha Viharaya</h5>
+              <p class="card-text">
+                Ratnapura Pothgul Rajamaha Viharaya is a picturesque cave temple
+                built on top of a hill believed to be built by king Vatta Gamini
+                Abhaya better known as king Walagamba (89-77 BC) in the 1st
+                century. It had been renovated during the days of King Kirthi
+                Sri Rajasinghe (1747 – 1781) of the Kandy period. There are two
+                temples belonging to these two periods withing the Pothgul
+                Viharaya.The cave image house at the temple is the most
+                historically significant section of the temple.
+              </p>
+              <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+                <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                  >See more</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    <div class="container mt-5 mb-5">
+      <div
+        class="card mb-5"
+        onmouseover="changeCardColor(this)"
+        onmouseout="resetCardColor(this)"
+      >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/p22.jpg" class="img-fluid rounded-start" alt="..." />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Vatadage</h5>
+              <p class="card-text">
+                This beautiful Stupa House (Vatadage) has been built before the
+                time of Nissanga Malla (1187-1196) but he has carried out major
+                renovations on this building. So what you see today is probably
+                his work.The uniqueness of such buildings is that the Stupa is
+                protected by a roof. Therefore Stupa’s in such buildings are
+                small. Another beautiful “Vatadage” is situated in Madirigiriya
+                few kilometers away from Polonnaruwa.On the center is a small
+                stupa and on the four sides, there are beautifully carved Buddha
+                statues. These statues are different to what is normally found.
+                
+              </p>
+              <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+                <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                  >See more</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+      <div
+        class="card mb-5"
+        onmouseover="changeCardColor(this)"
+        onmouseout="resetCardColor(this)"
+      >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="img/p24-1.jpeg"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Gal Viharaya</h5>
+              <p class="card-text">
+                Gal Vihara (Sinhala: stone temple), Buddhist Temple at (UNESCO
+                World Heritage Site) at Polonnaruwa, Sri Lanka is the most
+                perfect specimen of Buddha statue hewn out of solid stone.
+                Crafted during the reign of King Parakrabahu (1153-1186 A.C),
+                Gal Vihara statues are still incomplete preservation with their
+                irresistible charm and sublimity. It is undeniable that the
+                sculptors of Gal Vihara were of greater skill and expertise in
+                the art of stone sculpture in Sri Lanka. The images at Gal
+                Vihara have brought about a higher level of awakening in the
+                observers with respect to Buddhist art in Sri Lanka.
+              </p>
+              <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+                <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                  >See more</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <div
+        class="card mb-5"
+        onmouseover="changeCardColor(this)"
+        onmouseout="resetCardColor(this)"
+      >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="img/p28-2.jpg"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Isurumuniya Temple</h5>
+              <p class="card-text">
+                The Meghagiri Vihara is now commonly known as Isurumuniya Vihara
+                or Isurumuniya and lies near Tissa Wewa of Anuradhapura. But the
+                original Isurumuni Vihara is located few hundred metres away is
+                now called Vessagiri Vihara. When this viharaya was discovered
+                it would have been thought it to be the Isurumuniya mentioned in
+                ancient texts even though no inscription’s has been found. Later
+                when archaeologists found the real Isurumuni Viharaya few
+                hundred meters away (with inscriptions identifying its name),
+                the name Isurumuniya was already taken and and the site was
+                called Vessagiriya.
+              </p>
+              <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+                <a href="https://www.kitulgalaadventures.com/" target="_blank"
+                  >See more</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+    <!--card sec----------------------------------------------------end-->
+
+    <!--Footer----------------------------------------------------------Start-->
+    <footer class="footer">
+      <div class="container" style="text-align: center">
+        <div class="row">
+          <div class="footer-col col-md-4 mt-3">
+            <ul style="list-style-type: none">
+              <div class="footer-img">
+                <img
+                  src="img/walkers-footer.png"
+                  alt=""
+                  style="max-width: 200px"
+                />
+              </div>
+            </ul>
+          </div>
+          <div class="footer-col col-md-2 mt-3">
+            <ul style="list-style-type: none">
+              <h5 class="footer-topics">Menu</h5>
+              <li class="footer-listed-items">
+                <a href="www.google.com">Home</a>
+              </li>
+              <li class="footer-listed-items">
+                <a href="www.google.com">FAQ</a>
+              </li>
+              <li class="footer-listed-items">
+                <a href="www.google.com">About Us</a>
+              </li>
+              <li class="footer-listed-items">
+                <a href="www.google.com">Join Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col col-md-2 mt-3">
+            <ul style="list-style-type: none">
+              <h5 class="footer-topics">Catogaries</h5>
+              <li class="footer-listed-items">
+                <a href="www.google.com" target="_blank">Heritage</a>
+              </li>
+              <li class="footer-listed-items">
+                <a href="www.google.com" target="_blank">Beaches</a>
+              </li>
+              <li class="footer-listed-items">
+                <a href="www.google.com" target="_blank">Wild-Life</a>
+              </li>
+              <li class="footer-listed-items">
+                <a href="www.google.com" target="_blank">Rainforests</a>
+              </li>
+              <li class="footer-listed-items">
+                <a href="www.google.com" target="_blank">Adventure</a>
+              </li>
+              <li class="footer-listed-items">
+                <a href="www.google.com" target="_blank">Accomedations</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col col-md-4 mt-3">
+            <h4>Contact Us</h4>
+            <p class="contact-footer">www.walkers.srilanka@gmail.com</p>
+            <button type="button" class="btn btn-dark btn-rounded ms-2 btn1">
+              <a href="">Our Team</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div style="height: 50px; max-width: 100%; background-color: #412b0e ;" class="copyright-div">
+        <p class="copyright">Copyright © 2023 Walkers Sri Lanka. All rights reserved</p>
+      </div>
+    </footer>
+    <!--Footer----------------------------------------------------------End-->
+
+    <script type="text/javascript" src="js/script-heritage.js"></script>
+  </body>
+</html>
